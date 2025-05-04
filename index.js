@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 const port = 3000;
 
@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
   if (idadeNum < tempoEmpresa) return res.send(erroHtml("Idade menor que tempo de empresa."));
   if (idadeNaContratacao <= 16) return res.send(erroHtml("Funcionário foi contratado com 16 anos ou menos."));
 
-  // Cálculo do reajuste e adicional
+  
   let reajuste = 0;
   let adicional = 0;
 
@@ -45,7 +45,7 @@ app.get('/', (req, res) => {
 
   const novoSalario = salario + (salario * reajuste) + adicional;
 
-  // Envia o resultado final com HTML
+  
   res.send(`
     <!DOCTYPE html>
     <html lang="pt-BR">
