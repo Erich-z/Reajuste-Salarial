@@ -1,12 +1,7 @@
 {
   "name": "reajuste-salarial",
   "version": "1.0.0",
-  "description": "aula 1",
   "main": "index.js",
-  "type": "module",
-  "engines": {
-    "node": ">=18.x"
-  },
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
@@ -17,12 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/Erich-z/Reajuste-Salarial.git"
   },
-  "author": "Rafael",
+  "keywords": [],
+  "author": "Erich",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Erich-z/Reajuste-Salarial/issues"
-  },
-  "homepage": "https://github.com/Erich-z/Reajuste-Salarial",
+  "description": "",
+  "homepage": "https://github.com/Erich-z/Reajuste-Salarial#readme",
   "dependencies": {
     "express": "^5.1.0"
   }
